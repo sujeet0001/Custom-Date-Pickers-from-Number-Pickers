@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pickers</string>
+    <string name="datepicker">Date Picker</string>
+    <string name="exppicker">Expiry Date Picker</string>
+    <string name="pickdate">Pick Date</string>
+    <string name="npf">%02d</string>
+</resources>
