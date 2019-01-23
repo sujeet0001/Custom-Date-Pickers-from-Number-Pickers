@@ -50,8 +50,8 @@ public class DatePicker extends AppCompatActivity {
         year.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker picker, int oldVal, int newVal) {
-                day.setMaxValue(selectDayMaxValue(calendar, newVal, month.getValue()));
                 month.setMaxValue(selectMonthMaxValue(calendar, newVal));
+                day.setMaxValue(selectDayMaxValue(calendar, newVal, month.getValue()));
             }
         });
 
