@@ -76,7 +76,7 @@ public class ExpiryPicker extends AppCompatActivity {
 
     //for some reason calendar is returning 0 for JAN, 1 for FEB and so on...
     public static int getCurrentMonth(int month) {
-            month++
+            month++;
         return month;
     }
 
